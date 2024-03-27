@@ -22,4 +22,5 @@ build: dirs $(OBJ)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 clean:
-	rm -f $(OBJ) 
+	rm -f $(OBJ)
+	rm -f $(BIN)/snake
